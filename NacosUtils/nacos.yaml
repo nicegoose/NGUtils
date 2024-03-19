@@ -1,0 +1,17 @@
+ConfigParam:
+  Host: "192.168.31.198"
+  Port: 8848
+  DataId: "simple-admin-core-common-rpc"
+  Group: "simple-admin-core"
+  ClientConfig:
+    NamespaceId: "public"
+    TimeoutMs: 5000
+    NotLoadCacheAtStart : true
+    LogDir: "./nacos/log"
+    CacheDir: "./nacos/cache"
+    RotateTime: "1h"
+    MaxAge: "12h"
+    LogLevel: "debug"
+
+
+
